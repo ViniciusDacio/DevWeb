@@ -1,0 +1,9 @@
+.tab{
+    color: rgb(8, 8, 128);
+    font: 11px Helvetica;
+    text-align: center;
+    height: auto;
+    width: auto%;
+    border: 2px solid black;
+    line-height: 2;
+}

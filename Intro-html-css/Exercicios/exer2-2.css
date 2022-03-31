@@ -1,0 +1,31 @@
+.tabela{
+    font:12px Arial;
+    width: 600px;
+    border-collapse: collapse;
+}
+.tabela caption{
+    background-color: black;
+    color: white;
+}
+.tabela tbody{
+    text-align: center;
+}
+.tabela thead{
+    color: white;
+    background-color: #78b200;
+}
+td, th{
+    padding: 2px;
+}
+.cidade{
+    color: #0D5188;
+}
+tbody tr:nth-child(even){
+    background: rgba(236, 233, 13, 0.1)
+}
+tbody tr:nth-child(odd){
+    background: rgba(82, 82, 85, 0.1);
+}
+tbody td:nth-child(2){
+    color: #0D5188;
+}
