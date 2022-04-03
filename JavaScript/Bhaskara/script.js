@@ -1,3 +1,9 @@
+const valor_a = document.querySelector('.a');
+const valor_b = document.querySelector('.b');
+const valor_c = document.querySelector('.c');
+const calc = document.querySelector('.calculo_bhaskara');
+
+
 function calcular_delta(a, b, c){
     var d;
     d = (b*b) -4*a*c
@@ -24,4 +30,11 @@ function calcular_bhaskara(a, b, c){
     return s;
 }
 
-export {calcular_delta, calcular_x1, calcular_x2, calcular_bhaskara}
+function calcular(){
+    let re = [];
+    re = calcular_bhaskara(valor_a, valor_b, valor_c);
+    
+    x1.value = re[0];
+    x2.value = re[1];
+}
+
