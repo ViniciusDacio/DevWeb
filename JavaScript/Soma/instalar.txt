@@ -1,2 +1,9 @@
+npm init -y
 npm install
 npm jest
+
+npm i babel-jest @babel/preset-env
+npm test
+npm -i http-server
+
+"start": "http-server ./"
