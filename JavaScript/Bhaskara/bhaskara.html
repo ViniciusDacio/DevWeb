@@ -5,15 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
     <title>Calculadora de Bhaskara</title>
 </head>
 <body>
-    <label>Valor a <input type="number" class="a" ></label><br>
-    <label>Valor b <input type="number" class="b"></label><br>
-    <label>Valor c <input type="number" class="c"></label><br>
-    <button type="submit" class="calculo_bhaskara">Calcular</button>
 
+    <label>Valor a <input type="number" id="a" ></label><br>
+    <label>Valor b <input type="number" id="b"></label><br>
+    <label>Valor c <input type="number" id="c"></label><br>
+    <button type="submit" onclick="calcular()">Calcular</button><br>
+
+    <label>Valor de X': <span id="x1"></span></label><br>
+    <label>Valor de X'': <span id="x2"></span></label><br>
+    <label>Valor de Delta: <span id="d"></span></label>
+    <script src="script.js"></script>
     
 </body>
 </html>
