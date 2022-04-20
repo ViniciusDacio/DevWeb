@@ -1,0 +1,16 @@
+<script>
+export default {};
+</script>
+<template>
+  <header id="header">
+    <nav>
+        <ul>
+        <li><a href="">Menu 1</a></li>
+        <li><a href="">Menu 2</a></li>
+        <li><a href="">Menu 3</a></li>
+        <li><a href="">Menu 4</a></li>
+        </ul>
+    </nav>
+  </header>
+</template>
+<style></style>
