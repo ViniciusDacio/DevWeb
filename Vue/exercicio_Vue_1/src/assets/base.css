@@ -58,6 +58,9 @@ a{
 .bloco2{
   height: 600px;
 }
+.bloco3{
+  height: auto;
+}
 .bloco7{
   background-color: aqua;
   width: 100vh;

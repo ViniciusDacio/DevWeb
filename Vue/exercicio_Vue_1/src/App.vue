@@ -13,8 +13,5 @@ export default {
   <CabecalhoMenu />
   <ConteudoPrincipal />
   <RodapeF />
-  <!-- <header id="header">Cabeçalho</header> -->
-  <!-- <main id="content">Principal</main> -->
-  <!-- <footer id="footer">Rodapé</footer> -->
 </template>
 <style></style>
