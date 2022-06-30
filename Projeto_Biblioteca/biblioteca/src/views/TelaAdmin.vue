@@ -1,18 +1,11 @@
 <template>
 <div id="adm">
     <h1>Pagina Adm</h1>
-<ul v-for="livro, in livros" :key="livro">
-    <li>{{ livro }}</li>
-</ul>
+
+    <button>
+        <router-link to="/cad_book">Cadastro Livro</router-link>
+    </button>
+
 </div>
 </template>
 
-<script>
-    export default{
-        data(){
-    return{
-        livros: ['a', 'b', 'c', 'd']
-    }
-        }
-  }
-</script>

@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import TelaAdmin from '../views/TelaAdmin.vue'
+import TelaUser from '../views/TelaUsuario.vue'
+import CadBook from '../views/CadastroLivro.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -12,16 +14,19 @@ const routes: Array<RouteRecordRaw> = [
     path: '/admin',
     name: 'admin',
 
-    component: () => import(/* webpackChunkName: "about" */ '../views/TelaAdmin.vue')
+    component: () => import('../views/TelaAdmin.vue')
   },
-  
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/new_user',
+    name: 'new_user',
+
+    component: TelaUser
+  },
+  {
+    path: '/cad_book',
+    name: 'book',
+
+    component: CadBook
   }
 ]
 
