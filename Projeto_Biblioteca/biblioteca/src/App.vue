@@ -13,5 +13,7 @@
 #menu_top{
   display: flex;
   justify-content: space-around;
+  list-style-type: none;
 }
+
 </style>
