@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(0, 255, 255, 0.445);
+    
+}
+main{
+    text-align: center;
+    display: grid;
+    justify-content: space-around;
+}
+.calculadora{
+    background-color: azure;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+}

@@ -6,20 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="script.js"></script>
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo_calc.ico" type="image/x-icon">
     <title>Calculadora de Bhaskara</title>
 </head>
 <body>
+    <main>
+        <h2>Calculadora de Bhaskara</h2>
+        <div class="calculadora">
+            <label>Valor a <input type="number" id="a" ></label><br>
+            <label>Valor b <input type="number" id="b"></label><br>
+            <label>Valor c <input type="number" id="c"></label><br>
+            <button type="submit" onclick="calcular()">Calcular</button><br>
 
-    <label>Valor a <input type="number" id="a" ></label><br>
-    <label>Valor b <input type="number" id="b"></label><br>
-    <label>Valor c <input type="number" id="c"></label><br>
-    <button type="submit" onclick="calcular()">Calcular</button><br>
-
-    <label>Valor de X': <span id="x1"></span></label><br>
-    <label>Valor de X'': <span id="x2"></span></label><br>
-    <label>Valor de Delta: <span id="d"></span></label>
-    
-    
+            <label>Valor de Delta: <span id="d"></span></label><br>
+            <label>Valor de X': <span id="x1"></span></label><br>
+            <label>Valor de X'': <span id="x2"></span></label>
+        </div>
+    </main>
 </body>
 </html>

@@ -6,7 +6,7 @@ export default { components: { NovoBloco } };
 </script>
 <template>
     <main id="content">
-    <NovoBloco class="bloco1" />
+    <NovoBloco class="bloco1"/>
     <NovoBloco class="bloco2"/>
     <NovoBloco class="bloco3"/>
     <NovoBloco class="bloco4"/>
